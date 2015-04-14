@@ -33,6 +33,124 @@
                     android:layout_height="fill_parent"
                     android:orientation="vertical">
 
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="320dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:orientation="vertical">
+
+                        <TableLayout
+                            android:layout_width="120dp"
+                            android:layout_height="fill_parent"
+                            android:layout_row="0"
+                            android:layout_column="0">
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:text="ESSENCE"
+                                    android:id="@+id/textView"
+                                    android:layout_column="0"
+                                    android:layout_gravity="top|center" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Personal"
+                                    android:id="@+id/textView2"
+                                    android:layout_column="0"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/maxPersonalEssenceText"
+                                    android:layout_column="0"
+                                    android:lines="1"
+                                    android:maxLength="3"
+                                    android:maxLines="1" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Pheripherical"
+                                    android:id="@+id/textView3"
+                                    android:layout_column="0"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/maxPheriphericalEssenceText"
+                                    android:layout_column="0" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="Commited"
+                                    android:id="@+id/textView4"
+                                    android:layout_column="0"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:ems="10"
+                                    android:id="@+id/commitedEssenceText"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center" />
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </GridLayout>
                 </GridLayout>
 
                 <GridLayout
